@@ -7,3 +7,10 @@ h1{
     border: 1px solid  black;
     background-color: chartreuse;
 }
+#pagetitle {
+    padding: 10px;
+    background: #6ab6b2;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 20px;
+}
