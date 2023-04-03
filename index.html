@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Github Issues</title>
 </head>
 <body>
     <h1>Github Issues</h1>
     <h3 id="pagetitle"></h3>
     <ol id="list"></ol>
-    <button id="load_prev" onclick="loadPrev()">Prev</button>
-    <button id="load_next" onclick="loadNext()">Next</button>
+    <div>
+        <button id="load_prev" onclick="loadPrev()">Prev</button>
+        <button id="load_next" onclick="loadNext()">Next</button>
+    </div>
+    
 </body>
 </html>
